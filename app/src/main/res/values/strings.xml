@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">KiemTra_2500112141</string>
+
+    <string name="login_title">Đăng nhập</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="btn_login">Đăng nhập</string>
+
+    <string name="err_empty_both">Lỗi: Vui lòng nhập Email và Mật khẩu</string>
+    <string name="err_empty_email">Lỗi: Email không được để trống</string>
+    <string name="err_empty_password">Lỗi: Mật khẩu không được để trống</string>
+    <string name="err_invalid_email">Lỗi: Email không đúng định dạng</string>
+    <string name="err_short_password">Lỗi: Mật khẩu phải có ít nhất 6 ký tự</string>
+    <string name="msg_login_ok">Đăng nhập hợp lệ</string>
+
+    <string name="profile_title">Hồ sơ cá nhân</string>
+    <string name="profile_email">Email: %1$s</string>
+    <string name="btn_logout">Đăng xuất</string>
+</resources>
