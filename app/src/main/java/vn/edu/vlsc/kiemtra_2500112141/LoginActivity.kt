@@ -1,6 +1,7 @@
 package vn.edu.vlsc.kiemtra_2500112141
 
 import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 import android.util.Patterns
 import android.widget.Button
@@ -37,6 +38,10 @@ class LoginActivity : Activity() {
             } else {
                 tvStatus.setTextColor(getColor(R.color.success_green))
                 tvStatus.setText(R.string.msg_login_ok)
+
+                val intent = Intent(this, ProfileActivity::class.java)
+                intent.putExtra("EMAIL", email)
+                startActivity(intent)
             }
         }
     }
